@@ -1,0 +1,18 @@
+{
+  "name": "amazonautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-dashboard-run":"npx cypress run --browser chrome --headed --record --key=372ec80e-cc72-462c-90b8-1e0a7305baaa"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.2"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.1"
+  }
+}
