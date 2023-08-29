@@ -2,9 +2,7 @@ name: Cypress Artifacts
 env:
    CYPRESS_RECORD_KEY: 372ec80e-cc72-462c-90b8-1e0a7305baaa
    GITHUB_TOKEN: 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
-on:  
-  schedule: 
-    - cron: '42 05 * * *'
+on: [push]
 jobs:
  cypress-run:
    runs-on: windows-latest
