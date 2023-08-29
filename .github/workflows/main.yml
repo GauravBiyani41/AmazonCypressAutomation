@@ -1,4 +1,7 @@
 name: Cypress Artifacts
+env:
+   CYPRESS_RECORD_KEY: 372ec80e-cc72-462c-90b8-1e0a7305baaa
+   GITHUB_TOKEN: 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
 on:  
   schedule: 
     - cron: '42 05 * * *'
@@ -6,9 +9,12 @@ jobs:
  cypress-run:
    runs-on: windows-latest
    name: Test Artifacts
+  
    steps:
      - uses: actions/checkout@v2
      - uses: cypress-io/github-action@v4
+       with:
+          record: true
      - uses: actions/upload-artifact@v2
        if: failure()
        with:
