@@ -2,7 +2,7 @@
 
 import HomePage from '../PageObjects/HomePage.cy'
 import SignInPage from '../PageObjects/SignInPage.cy'
-import UserAddressPage from '../PageObjects/UserAddressPage';
+import UserAddressPage from '../PageObjects/UserAddressPage.cy';
 
 const signInPageObject = new SignInPage();
 const homePageObject = new HomePage();
