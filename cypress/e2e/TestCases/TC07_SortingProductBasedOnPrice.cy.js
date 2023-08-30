@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
-import HomePage from '../PageObjects/HomePage.cy';
-import SortingBasedOnPricePage from '../PageObjects/SortingBasedOnPricePage.cy';
+import HomePage from '../../PageObjects/HomePage.cy';
+import SortingBasedOnPricePage from '../../PageObjects/SortingBasedOnPricePage.cy';
 
 const homePageObject = new HomePage();
 const sortingProductBasedOnPriceObject = new SortingBasedOnPricePage();

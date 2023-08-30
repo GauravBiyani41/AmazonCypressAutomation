@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-import SignInPage from '../PageObjects/SignInPage.cy';
-import HomePage from '../PageObjects/HomePage.cy';
-import ProductPage from '../PageObjects/ProductPage.cy';
+import SignInPage from '../../PageObjects/SignInPage.cy';
+import HomePage from '../../PageObjects/HomePage.cy';
+import ProductPage from '../../PageObjects/ProductPage.cy';
 
 const signInPageObject = new SignInPage();
 const homePageObject = new HomePage();

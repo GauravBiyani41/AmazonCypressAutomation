@@ -1,10 +1,10 @@
 /// <reference types="Cypress" />
 
-import SignInPage from '../PageObjects/SignInPage.cy';
-import HomePage from '../PageObjects/HomePage.cy';
-import ProductPage from '../PageObjects/ProductPage.cy';
-import ProductDescriptionPage from '../PageObjects/ProductDescriptionPage.cy';
-import WishListPage from '../PageObjects/WishListPage.cy';
+import SignInPage from '../../PageObjects/SignInPage.cy';
+import HomePage from '../../PageObjects/HomePage.cy';
+import ProductPage from '../../PageObjects/ProductPage.cy';
+import ProductDescriptionPage from '../../PageObjects/ProductDescriptionPage.cy';
+import WishListPage from '../../PageObjects/WishListPage.cy';
 
 const signInPageObject = new SignInPage();
 const homePageObject = new HomePage();
